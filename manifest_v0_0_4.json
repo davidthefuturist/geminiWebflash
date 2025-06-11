@@ -1,0 +1,17 @@
+{
+    "name": "geminiR",
+    "version": "0.0.4",
+    "new_install_prompt_erase": true,
+    "builds": [
+      {
+        "chipFamily": "ESP32-C3",
+        "parts": [
+          { "path": "v0_0_4/bootloader.bin", "offset": 0 },
+          { "path": "v0_0_4/partition-table.bin", "offset": 32768 },
+          { "path": "v0_0_4/BoostedBreakReceiver.bin", "offset": 65536 }
+        ]
+      }
+    ]
+  }
+
+  
