@@ -1,0 +1,17 @@
+{
+    "name": "Mirada",
+    "version": "0.0.9",
+    "new_install_prompt_erase": true,
+    "builds": [
+      {
+        "chipFamily": "ESP32-C3",
+        "parts": [
+          { "path": "v0_0_9/bootloader.bin", "offset": 0 },
+          { "path": "v0_0_9/partition-table.bin", "offset": 32768 },
+          { "path": "v0_0_9/BoostedBreakReceiver.bin", "offset": 65536 }
+        ]
+      }
+    ]
+  }
+
+  
