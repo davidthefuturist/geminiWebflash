@@ -1,0 +1,17 @@
+{
+    "name": "Receiver",
+    "version": "0.0.15 Version 15",
+    "new_install_prompt_erase": true,
+    "builds": [
+      {
+        "chipFamily": "ESP32-C3",
+        "parts": [
+          { "path": "v0_0_15/bootloader.bin", "offset": 0 },
+          { "path": "v0_0_15/partition-table.bin", "offset": 32768 },
+          { "path": "v0_0_15/BoostedBreakReceiver.bin", "offset": 65536 }
+        ]
+      }
+    ]
+  }
+
+  
